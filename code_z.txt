@@ -1,0 +1,75 @@
+# Welcome to Quiz Game
+print("Welcome to Quiz Game!")
+lives = 3
+score = 0
+ans = str(input("Do you want to play? Yes/No: "))
+if ans == "Yes":
+    print("Game Starting..")
+else:
+    exit("Good Bye.")
+
+
+#Question 1
+question1 = input('Question 1: In which year did Ferdinand Magellan first land in the Philippines : ')
+if question1 == '1521':
+    print('Correct')
+    score += 1
+elif question1 != '1521':
+    lives -= 1
+    print('You have', lives, 'life left')
+    if lives == 0:
+        print('Game Over.')
+        exit()
+
+
+#Question 2
+question2 = input('Question 2: Mayon Volcano is located in which province? : ')
+if question2 == 'Albay':
+    print('Correct')
+    score += 1
+elif question2 != 'Albay':
+    lives -= 1
+    print('You have', lives, 'life left')
+    if lives == 0:
+        print('Game Over.')
+        exit()
+
+
+#Question 3
+question3 = input('Question 3: The name Philippines came from the king of which country? : ')
+if question3 == 'Spain':
+    print('Correct')
+    score += 1
+elif question3 != 'Spain':
+    lives -= 1
+    print('You have', lives, 'life left')
+    if lives == 0:
+        print('Game Over.')
+        exit()
+
+#Question 4
+question4 = input('Question 4: What pen name did Marcelo H del Pilar use in his writings : ')
+if question4 == 'Plaridel':
+    print('Correct')
+    score += 1
+if question4 != 'Plaridel':
+    lives -= 1
+    print('You have', lives, 'life left')
+    if lives == 0:
+        print('Game Over.')
+        exit()
+
+#Question 5
+question5 = input('Name the most popular team sport in the Philippines? : ')
+if question5 == 'Basktball':
+    print ("Correct")
+    score += 1
+if question5 != 'Basktball':
+    lives -= 1
+    print('You have', lives, 'life left')
+    if lives == 0:
+        print('Game Over.')
+        exit()
+
+print('Score:' ,score,'out of 5. Congrats!' )
+print('You have completed the Quiz.')
