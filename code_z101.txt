@@ -1,0 +1,134 @@
+if (ope=="+"):
+	print("Answer is: ",num+numb)
+	run=input("Do you want to run again?")
+	if run=="y":
+		num = int(input("Enter first number :"))
+		numb = int(input("Enter second number:  "))
+		ope = input("What operator to use? ")
+		if (ope=="+"):
+			print("Answer is: ",num+numb)
+		elif (ope=="-"):
+			print("Answer is: ",num-numb)
+		elif (ope=="*"):
+			print("Answer is: ",num*numb)
+		elif (ope=="/"):
+			print("Answer is: ",num/numb)
+	elif run=="n":
+		exit()
+		run=input("Do you want to run again?")
+		if run=="y":
+			num = int(input("Enter first number :"))
+			numb = int(input("Enter second number:  "))
+			ope = input("What operator to use? ")
+			if (ope=="+"):
+				print("Answer is: ",num+numb)
+			elif (ope=="-"):
+				print("Answer is: ",num-numb)
+			elif (ope=="*"):
+				print("Answer is: ",num*numb)
+			elif (ope=="/"):
+				print("Answer is: ",num/numb)
+		elif run=="n":
+			exit()
+			
+			
+if (ope=="-"):
+	print("Answer is: ",num+numb)
+	run=input("Do you want to run again?")
+	if run=="y":
+		num = int(input("Enter first number :"))
+		numb = int(input("Enter second number:  "))
+		ope = input("What operator to use? ")
+		if (ope=="+"):
+			print("Answer is: ",num+numb)
+		elif (ope=="-"):
+			print("Answer is: ",num-numb)
+		elif (ope=="*"):
+			print("Answer is: ",num*numb)
+		elif (ope=="/"):
+			print("Answer is: ",num/numb)
+	elif run=="n":
+		exit()
+		run=input("Do you want to run again?")
+		if run=="y":
+			num = int(input("Enter first number :"))
+			numb = int(input("Enter second number:  "))
+			ope = input("What operator to use? ")
+			if (ope=="+"):
+				print("Answer is: ",num+numb)
+			elif (ope=="-"):
+				print("Answer is: ",num-numb)
+			elif (ope=="*"):
+				print("Answer is: ",num*numb)
+			elif (ope=="/"):
+				print("Answer is: ",num/numb)
+		elif run=="n":
+			exit()
+			
+			
+if (ope=="*"):
+	print("Answer is: ",num+numb)
+	run=input("Do you want to run again?")
+	if run=="y":
+		num = int(input("Enter first number :"))
+		numb = int(input("Enter second number:  "))
+		ope = input("What operator to use? ")
+		if (ope=="+"):
+			print("Answer is: ",num+numb)
+		elif (ope=="-"):
+			print("Answer is: ",num-numb)
+		elif (ope=="*"):
+			print("Answer is: ",num*numb)
+		elif (ope=="/"):
+			print("Answer is: ",num/numb)
+	elif run=="n":
+		exit()
+		run=input("Do you want to run again?")
+		if run=="y":
+			num = int(input("Enter first number :"))
+			numb = int(input("Enter second number:  "))
+			ope = input("What operator to use? ")
+			if (ope=="+"):
+				print("Answer is: ",num+numb)
+			elif (ope=="-"):
+				print("Answer is: ",num-numb)
+			elif (ope=="*"):
+				print("Answer is: ",num*numb)
+			elif (ope=="/"):
+				print("Answer is: ",num/numb)
+		elif run=="n":
+			exit()
+			
+			
+if (ope=="/"):
+	print("Answer is: ",num+numb)
+	run=input("Do you want to run again?")
+	if run=="y":
+		num = int(input("Enter first number :"))
+		numb = int(input("Enter second number:  "))
+		ope = input("What operator to use? ")
+		if (ope=="+"):
+			print("Answer is: ",num+numb)
+		elif (ope=="-"):
+			print("Answer is: ",num-numb)
+		elif (ope=="*"):
+			print("Answer is: ",num*numb)
+		elif (ope=="/"):
+			print("Answer is: ",num/numb)
+	elif run=="n":
+		exit()
+		run=input("Do you want to run again?")
+		if run=="y":
+			num = int(input("Enter first number :"))
+			numb = int(input("Enter second number:  "))
+			ope = input("What operator to use? ")
+			if (ope=="+"):
+				print("Answer is: ",num+numb)
+			elif (ope=="-"):
+				print("Answer is: ",num-numb)
+			elif (ope=="*"):
+				print("Answer is: ",num*numb)
+			elif (ope=="/"):
+				print("Answer is: ",num/numb)
+		elif run=="n":
+			exit(
